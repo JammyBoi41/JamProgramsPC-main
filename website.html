@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Jam Programs</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Montserrat:wght@200;400&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="styles/general.css">
+        <link rel="stylesheet" href="styles/header.css">
+        <link rel="stylesheet" href="styles/home.css">
+        <link rel="stylesheet" href="styles/about.css">
+        <link rel="stylesheet" href="styles/projects.css">
+        <link rel="stylesheet" href="styles/extracurriculars.css">
+        <link rel="stylesheet" href="styles/skills.css">
+        <!--<link rel="stylesheet" href="styles/glow.css">-->
+
+    </head>
+    <body>
+        <main>
+            <div id="glow-container" class="glow"></div>
+
+            <section class="header-section">
+                <header class="header">
+                    <button onclick="scrollToSection('home')" class="home-button">
+                        Home
+                    </button>
+                    <button onclick="scrollToSection('about')" class="about-button" >
+                        About
+                    </button>
+                    <button onclick="scrollToSection('project')" class="projects-button">
+                        Projects
+                    </button>
+                    <button onclick="scrollToSection('extracurriculars')" class="extracurriculars-button">
+                        Extracurriculars
+                    </button>
+                </header>
+            </section>  
+            
+
+            <section class="home" id="home">
+                <div>
+                    <h1 class="">JAMIN CHUNG</h1>
+                </div>
+                <div>
+                    <h2 class="about-me"> <span>Computer Science Major </span> | <span>Economics Minor</span> | <span>Research-Intern</span></h2>
+                </div>
+                <div>
+                    <h2 class="lets-go">Let's take a scroll.</h2>
+                </div>
+            </section>
+
+            <section class="about" id="about">
+                <div class="title">
+                    <h1>ABOUT</h1>
+                </div>
+                <div class="about-div">
+                    <div class="picture"> <!-- portrait and links -->
+                        <div class="portrait-div">
+                            <img class="portrait" src="images/me">
+                        </div>
+                        <div class="link-container">
+                            <div class="link">
+                                <img class="icon" src="icons/github-mark-white.png">
+                                JammyBoi41
+                            </div>
+
+                            <div class="link2">
+                                <img class="icon" src="icons/mail.png">
+                                jamin.chung@ufl.edu
+                            </div>
+
+                            <div class="link2">
+                                <img class="icon" src="icons/linkedin.png">
+                                jamin-chung
+                            </div>
+                        </div>
+                    </div>
+                    
+
+                    <div class="about-info">
+                        <div class="h2-container">
+                            <h2>
+                                A Rising Junior at the University of Florida, I've long had an interest in tech. Being a CS student, I strive to discover everything I can related to Software Engineering and have been fortunate enough to be given the opportunity to develop some of my own projects as well as working within a team setting with others to contribute towards an end product as well. I'm willing to explore all realms related to the tech industry, hoping to dedicate my persistence and problem-solving ability to an organization who can mutually benefit me with experience and a culture for growth.  
+                            </h2>
+                            <h2>
+                                Outside of academia and professional development, I enjoy weightlifting, longboarding around my campus, and spending time with friends both on campus and back at home.
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            
+
+            <section class="project" id="project"> <!--be careful, header button named 'projects'-->
+                <div class="title">
+                    <h1>PROJECTS</h1>
+                </div>
+                <div class="project-container"> <!--contains the laptops -->
+                    <div class="Fitness2 laptop">
+                        <img src="styles/Fitness2.png">
+                    </div>
+                    <div class="Fitness2 laptop">
+                        <img src="styles/Fitness2.png">
+                    </div>
+                    <div class="Fitness2 laptop">
+                        <img src="styles/Fitness2.png">
+                    </div>
+                </div>
+            </section>
+
+            <section class="extracurriculars" id="extracurriculars">
+                <div class="title">
+                    <h1>EXTRACURRICULARS</h1>
+                </div>
+
+                <div class="extracurricular-overlay">
+
+                </div>
+
+                <div class="extracurricular-container">
+                    <div class="ball-container">
+                        <div class="ball1">
+                            <button onclick="swapText('ball1'); " onclick="moveBalls()" class="overlay"></button>
+                        </div>  
+                        <div class="ball2">
+                            <button onclick="swapText('ball2')" class="overlay"></button>
+                        </div>
+                        <div class="ball3">
+                            <button onclick="swapText('ball3')" class="overlay"></button>
+                        </div>
+                    </div>
+
+                    <div class="js-extra-desc extra-desc">
+                        <div class="js-extra-title extra-title">
+                        </div>
+
+                        <div class="js-extra-time extra-time">
+                        </div>
+
+                        <div class="js-extra-info extra-info"></div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="skills" id="skills">
+                <div class="title">
+                    <h1>SKILLS</h1>
+                </div>
+
+                <div class="skill-desc">
+                    <div class="skill-desc1">
+                        I have experience in a number of languages, including SQL, Python, CSS/HTML, Java and C++. I've also worked with a number of libraries and packages, including but not limited to mySQL, Qt, PySide, and pandas.
+                    </div>
+                </div>
+                
+                <div class="skill-container">
+
+                    <div class="cplusplus">
+                        <div class="outer">
+                            <div class="inner">
+                                <div class="language">
+                                    C++
+                                </div>
+                            </div>
+                        </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="200px" height="200px"> <!--always make sure these are the same dimension as outer-->
+                            <defs>
+                               <linearGradient id="GradientColor">
+                                  <stop offset="0%" stop-color="#22ffff" />
+                                  <stop offset="100%" stop-color="#673ab7" />
+                               </linearGradient>
+                            </defs>
+                            <circle class="cplusplus-circle" cx="100" cy="100" r="90" stroke-linecap="round" /> <!-- to center: make cx = cy and tinker with r-->
+                    </svg>
+                    </div>
+
+                    <div class="css-html">
+                        <div class="outer">
+                            <div class="inner">
+                                <div class="language">
+                                    CSS/HTML
+                                </div>
+                            </div>
+                        </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="200px" height="200px"> <!--always make sure these are the same dimension as outer-->
+                            <defs>
+                               <linearGradient id="GradientColor">
+                                  <stop offset="0%" stop-color="#22ffff" />
+                                  <stop offset="100%" stop-color="#673ab7" />
+                               </linearGradient>
+                            </defs>
+                            <circle class="css-html-circle" cx="100" cy="100" r="90" stroke-linecap="round" /> <!-- to center: make cx = cy and tinker with r-->
+                    </svg>
+                    </div>
+
+                    <div class="python">
+                        <div class="outer">
+                            <div class="inner">
+                                <div class="language">
+                                    Python
+                                </div>
+                            </div>
+                        </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="200px" height="200px"> <!--always make sure these are the same dimension as outer-->
+                            <defs>
+                               <linearGradient id="GradientColor">
+                                  <stop offset="0%" stop-color="#22ffff" />
+                                  <stop offset="100%" stop-color="#673ab7" />
+                               </linearGradient>
+                            </defs>
+                            <circle class="python-circle" cx="100" cy="100" r="90" stroke-linecap="round" /> <!-- to center: make cx = cy and tinker with r-->
+                    </svg>
+                    </div>
+
+                    <div class="sql">
+                        <div class="outer">
+                            <div class="inner">
+                                <div class="language">
+                                    SQL
+                                </div>
+                            </div>
+                        </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="200px" height="200px"> <!--always make sure these are the same dimension as outer-->
+                            <defs>
+                               <linearGradient id="GradientColor">
+                                  <stop offset="0%" stop-color="#22ffff" />
+                                  <stop offset="100%" stop-color="#673ab7" />
+                               </linearGradient>
+                            </defs>
+                            <circle class="sql-circle" cx="100" cy="100" r="90" stroke-linecap="round" /> <!-- to center: make cx = cy and tinker with r-->
+                    </svg>
+                    </div>
+
+                    <div class="java">
+                        <div class="outer">
+                            <div class="inner">
+                                <div class="language">
+                                    Java
+                                </div>
+                            </div>
+                        </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="200px" height="200px"> <!--always make sure these are the same dimension as outer-->
+                            <defs>
+                               <linearGradient id="GradientColor">
+                                  <stop offset="0%" stop-color="#22ffff" />
+                                  <stop offset="100%" stop-color="#673ab7" />
+                               </linearGradient>
+                            </defs>
+                            <circle class="java-circle" cx="100" cy="100" r="90" stroke-linecap="round" /> <!-- to center: make cx = cy and tinker with r-->
+                    </svg>
+                    </div>
+                </div>
+
+                
+
+                
+            </section>
+
+        </main>
+
+        <script src="scripts/balls.js"> </script>
+        <!--<script src="scripts/cards.js"> </script>-->
+        <!--<script src="scripts/glow.js"> </script>-->
+    </body>
+</html>

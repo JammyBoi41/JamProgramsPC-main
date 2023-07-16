@@ -1,0 +1,125 @@
+.about {
+    padding-top: 1vw;
+    padding-bottom: 5vw;
+    background: #13131a;
+    display: flex;
+    flex-direction: column;
+    height: 82vh;
+    align-items: center;
+    z-index: 1;
+}
+
+.about .title h1::after {
+    position: absolute;
+    content:"ABOUT";
+    color: rgba(255, 255, 255, 0.03);
+    font-size: 5.5vw;
+    font-family: Agdasima;
+    font-weight: bold;
+    bottom: -10;
+}
+
+.about .title h1 {
+    justify-content: center;
+}
+
+.about-div {
+    margin-top: 0px;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    width: 85vw;
+}
+.picture {
+    display: flex;
+    flex-direction: column;
+}
+.link-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.6vw;
+}
+.link,.link2 {
+    display: flex;
+    font-size: 2.5vw;
+    color: rgb(166, 166, 166);
+    font-family: Agdasima;
+    padding-left: 50px;
+}
+.link2 {
+    margin-top: 8px;
+}
+.icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+
+@keyframes fadeInLeft {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInRight {
+    0% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+
+    100% {
+        transformX: translateX(0);
+        opacity: 1;
+    }
+}
+
+
+
+.portrait-div {
+    display: flex;
+    width: 250px;
+    margin-left: 40px;
+}
+
+.portrait {
+    margin-top: 30px;
+    contain: content;
+    width: 240px;
+    height: 240px;
+    border-radius: 150px;
+    border: 3px solid rgba(166, 166, 166, 0.5);
+}
+
+
+
+
+.about-info {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.h2-container {
+    color: rgb(166, 166, 166);
+    font-size: 2rem;
+    margin-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    line-height: 2.6vw;
+    margin-left: 50px;
+    text-align: justify;
+}
+
+.about h2 {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 1.25vw;
+}
+

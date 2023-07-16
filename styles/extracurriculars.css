@@ -1,0 +1,232 @@
+.extracurriculars {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: 110%;
+    background-position: center;
+    padding-bottom: 5rem;
+    background-attachment: fixed;
+    background-position-x: 0.1vw;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.extracurricular-overlay {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 110%;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.extracurriculars .title {
+    z-index: 2;
+    position: relative;
+    margin-top: 0;
+    padding-top: 0;
+}
+.extracurriculars .title h1 {
+    margin-bottom: 1vw;
+    margin-top: 0;
+}
+
+span {
+    color: #00ffff;
+}
+
+@keyframes opacityOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+@keyframes opacityIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+.kusa_background {
+    animation: opacityIn 0.7s ease;
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.8)), url(kusa_background.webp);
+}
+.flc_background {
+    animation: opacityIn 0.8s ease;
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.8)), url(flc_background.jpg);
+}
+.irha_background {
+    animation: opacityIn 0.8s ease;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.8)), url(irha_background);
+}
+.kusa_background.removeTransition { /* THIS MADE IT WORK FINALLY*/
+    animation: opacityOut 0.8s ease forwards;
+}
+.flc_background.removeTransition {
+    animation: opacityOut 0.8s ease forwards;
+}
+.irha_background.removeTransition {
+    animation: opacityOut 0.8s ease forwards;
+}
+
+
+.extracurricular-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 400px; /*made a little bigger than the height of the biggest paragraph so items don't shift around*/
+    width: 85vw;
+}
+
+.ball-container{
+    display: flex;
+    margin-right: 1.5vw;
+}
+
+.ball1,.ball2,.ball3 {
+    border-radius: 100px;
+    height: 150px;
+    width: 150px;
+    background-size: cover;
+    margin-left: 30px;
+    margin-right: 30px;
+    z-index: 2;
+    position: relative;
+    transition: 0.5s ease all;
+}
+.ball1 {
+    background-image: url("KUSA.jpg");
+    background-position: center;
+}
+.ball2 {
+    background-image: url("FLC.png");
+    background-size: 105%;
+    background-position: center;
+}
+.ball3 {
+    background-image: url("IRHA.jpg");
+    background-position: center;
+}
+.ball1:hover, .ball2:hover, .ball3:hover {
+    scale: 1.3;
+}
+
+.overlay {
+    background: linear-gradient(rgba(0,0,0,0.22), rgba(0,0,0,1));
+    opacity: 1;
+    z-index: 5;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 100px;
+    transition: 0.5s ease all;
+    cursor: pointer;
+}
+.overlay:hover {
+    opacity: 0;
+}
+
+@keyframes fadeIn { /* these two are for the rotating descriptions*/
+    0% {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+}
+
+.ballDesc {
+    animation: fadeIn;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 1.5vw;
+    line-height: 2.2vw;
+    color: rgba(166, 166, 166, 1);
+}
+.ballClicked {
+    scale: 1.3;
+}
+.ballClicked button {
+    opacity: 0;
+}
+
+.ballDescRemove {
+    animation: fadeOut;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 1.5vw;
+    line-height: 2.2vw;
+    color: rgba(166, 166, 166, 1);
+}
+
+.extracurriculars .title h1::after {
+    position: absolute;
+    content:"EXTRACURRICULARS";
+    color: rgba(255, 255, 255, 0.02);
+    font-size: 5.5vw;
+    font-family: Agdasima;
+    font-weight: bold;
+    bottom: -10;
+}
+
+.extra-desc {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+.extra-title {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 1.8vw;
+    color: rgba(166, 166, 166, 1);
+}
+.extra-time {
+    font-family: Montserrat;
+    font-weight: 300;
+    font-size: 1.6vw;
+    color: rgba(166, 166, 166, 1);
+}
+.extra-info {
+    text-align: justify;
+    padding-right: 40px;
+    margin-top: 0.9vw;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 1.2vw;
+    color: rgba(166, 166, 166, 1);
+}
+
+
+/* make overlay a background: gradient, apply opacity 1 -> hover: opacity: 0*/
