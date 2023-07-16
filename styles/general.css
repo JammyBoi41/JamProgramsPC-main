@@ -35,14 +35,14 @@ img {
 }
 
 
-.title h1{ /* affects all titles*/
+.title h1{ /* affects all titles */
     display: flex;
     width: 100%;
     justify-content: center;
     align-items: center;
     font-family: Agdasima;
     position: relative;
-    font-size: 4vw;
+    font-size: 4.5vw;
     color: white;
     font-weight: bold;
     margin-left: 1vw;

@@ -59,11 +59,11 @@ span {
 
 .kusa_background {
     animation: opacityIn 0.7s ease;
-    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.8)), url(kusa_background.webp);
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.8)), url(kusa_background.webp);
 }
 .flc_background {
     animation: opacityIn 0.8s ease;
-    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.8)), url(flc_background.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.8)), url(flc_background.jpg);
 }
 .irha_background {
     animation: opacityIn 0.8s ease;
