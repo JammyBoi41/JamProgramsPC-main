@@ -68,6 +68,7 @@ span {
     justify-content: space-around;
     text-decoration: underline;
     text-underline-offset: 1vw;
+    text-decoration-thickness: 0.1vw;
     text-decoration-color: #22ffff;
 }
 .Fitness2-title,.Airplanes-title,.Wildfire-title {
