@@ -98,18 +98,31 @@
             
 
             <section class="project" id="project"> <!--be careful, header button named 'projects'-->
+                <div class="popup"> <!--dark background-->
+                    <div class="popup-display">
+                        <img src="images/Fitness2.png" class="popup-thumbnail" id="popup-thumbnail">
+
+                        <h2 class="popup-title">
+                            Jam's Powerlifting App
+                        </h2>
+                        <p class="popup-desc">
+                            An application that combines the passiosn of lifting weights and writing code, this custom application was built from PySide6 and implements sqlite3 for its database. It allows for personal record tracking, dietary logging, and comes with wide variety of foods with nutritional information, thanks to a public nutritional database. 
+                        </p>
+                    </div>
+                </div>
                 <div class="title">
                     <h1>PROJECTS</h1>
                 </div>
+
                 <div class="project-container"> <!--contains the laptops -->
                     <div class="Fitness2 laptop">
-                        <img src="styles/Fitness2.png">
+                        <img class="laptop-thumbnail" src="styles/Fitness2.png" onclick="openPopup('Fitness2')">
                     </div>
                     <div class="Airplanes laptop">
-                        <img src="styles/Airplanes.png">
+                        <img class="laptop-thumbnail" src="styles/Airplanes.png" onclick="openPopup('Airplanes')">
                     </div>
                     <div class="Wildfire laptop">
-                        <img src="styles/Wildfire.png">
+                        <img class="laptop-thumbnail" src="styles/Wildfire.png" onclick="openPopup('Wildfire')">
                     </div>
                 </div>
                 <div class="title-container">
@@ -279,6 +292,7 @@
         </main>
 
         <script src="scripts/balls.js"> </script>
+        <script src="scripts/popup.js"> </script>
         <!--<script src="scripts/cards.js"> </script>-->
         <!--<script src="scripts/glow.js"> </script>-->
     </body>

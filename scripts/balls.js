@@ -17,7 +17,6 @@ extra_info.innerText = 'Having dedicated 2 years of my undergraduate experience 
 const background = document.querySelector('.extracurricular-overlay');
 background.classList.add('kusa_background');
 
-console.log(background.classList);
 
 
 
@@ -156,7 +155,6 @@ function swapText(ballNumber) {
 /*function moveBalls() {
     const ball_container = document.querySelector('.ball-container');
     ball_container.classList.add('moveBalls');
-    console.log('eh'); 
 }*/
 
 function scrollToSection(sectionId) { //self-explanatory
@@ -191,8 +189,6 @@ function swapDesc(newText) { //checks if this is the first time a ball is clicke
 }
 
 function removeBackground(toBackground) {
-    console.log(background.classList);
-    //console.log('hi');
     const backgrounds = ['flc_background', 'kusa_background', 'irha_background'];
 
     for(let i = 0; i < backgrounds.length; i++) {

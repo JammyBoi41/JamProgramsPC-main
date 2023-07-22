@@ -34,6 +34,7 @@
     right: 0;
     top: 2.5vw;
     transition: 0.2s;
+    
 }
 
 .header button:hover::after {
