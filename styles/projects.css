@@ -174,7 +174,6 @@ span {
 }
 .popup-display.closePopup {
     animation: slideOut 0.4s forwards;
-    visibility: hidden;
 }
 
 
@@ -195,7 +194,7 @@ span {
     }
     to {
         opacity: 0;
-        transform: translateY(40rem);
+        transform: translateY(-40rem);
     }
 }
 
