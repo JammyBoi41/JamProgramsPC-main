@@ -15,7 +15,7 @@ function openPopup(projectName) {
         popup_display.classList.add('openPopup');
         setTimeout(function() { //you need to have a bit of time in between before setting the boolean to true or else it will simultaneously register as true on the first click and outside popup-display
             opened = true;
-        },1000)    
+        },200)    
     }
     else if(projectName === 'Airplanes') {
         popup_thumbnail.src = 'images/Airplanes.png';
@@ -24,16 +24,16 @@ function openPopup(projectName) {
         popup_display.classList.add('openPopup');
         setTimeout(function() {
             opened = true;
-        },1000)
+        },200)
     }
     else if(projectName === 'Wildfire') {
         popup_thumbnail.src = 'images/Wildfire.png';
-        popup_title.innerText = 'Flight Delay Calculator';
+        popup_title.innerText = 'U.S. Wildfire Webpage';
         popup_desc.innerText = 'AUGH IM BURNING';
         popup_display.classList.add('openPopup');
         setTimeout(function() {
             opened = true;
-        },1000)
+        },200)
     }
 }
 

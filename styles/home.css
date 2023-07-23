@@ -26,7 +26,7 @@
 
 
 .home h1{
-    animation-delay: 1s;
+    animation-delay: 0.2s;
     opacity: 0;
     animation-name: fadeAnimation;
     animation-duration: 1s;
@@ -41,7 +41,7 @@
 }
 
 .home h2 {
-    animation-delay: 1s;
+    animation-delay: 0.2s;
     font-size: 1.8vw;     
     width: 50vw;
     text-align: center;
@@ -50,7 +50,7 @@
 }
 
 .about-me {
-    animation-delay: 1s;
+    animation-delay: 0.2s;
     opacity: 0; /* set it invisible initially*/
     animation: fadeAnimation;
     animation-fill-mode: forwards; /* makes it stay (like QAnimation.finished in PySide) */
@@ -59,7 +59,7 @@
 }
 
 .lets-go {
-    animation-delay: 1s;
+    animation-delay: 0.2s;
     opacity: 0;
     animation: fadeAnimation;
     animation-timing-function: ease;
