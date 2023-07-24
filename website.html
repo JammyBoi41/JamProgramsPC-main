@@ -27,16 +27,19 @@
             <section class="header-section">
                 <header class="header">
                     <button onclick="scrollToSection('home')" class="home-button">
-                        Home
+                        HOME
                     </button>
                     <button onclick="scrollToSection('about')" class="about-button" >
-                        About
+                        ABOUT
                     </button>
                     <button onclick="scrollToSection('project')" class="projects-button">
-                        Projects
+                        PROJECTS
                     </button>
                     <button onclick="scrollToSection('extracurriculars')" class="extracurriculars-button">
-                        Extracurriculars
+                        EXTRACURRICULARS
+                    </button>
+                    <button onclick="scrollToSection('skills')" class="extracurriculars-button">
+                        SKILLS
                     </button>
                 </header>
             </section>  
@@ -203,7 +206,7 @@
                                   <stop offset="100%" stop-color="#673ab7" />
                                </linearGradient>
                             </defs>
-                            <circle class="cplusplus-circle" cx="100" cy="100" r="90" stroke-linecap="round" /> <!-- to center: make cx = cy and tinker with r-->
+                            <circle class="cplusplus-circle" cx="100" cy="100" r="90" stroke-linecap="butt" /> <!-- to center: make cx = cy and tinker with r-->
                     </svg>
                     </div>
 
@@ -222,7 +225,7 @@
                                   <stop offset="100%" stop-color="#673ab7" />
                                </linearGradient>
                             </defs>
-                            <circle class="css-html-circle" cx="100" cy="100" r="90" stroke-linecap="round" /> <!-- to center: make cx = cy and tinker with r-->
+                            <circle class="css-html-circle" cx="100" cy="100" r="90" stroke-linecap="butt" /> <!-- to center: make cx = cy and tinker with r-->
                     </svg>
                     </div>
 
@@ -241,7 +244,7 @@
                                   <stop offset="100%" stop-color="#673ab7" />
                                </linearGradient>
                             </defs>
-                            <circle class="python-circle" cx="100" cy="100" r="90" stroke-linecap="round" /> <!-- to center: make cx = cy and tinker with r-->
+                            <circle class="python-circle" cx="100" cy="100" r="90" stroke-linecap="butt" /> <!-- to center: make cx = cy and tinker with r-->
                     </svg>
                     </div>
 
@@ -260,7 +263,7 @@
                                   <stop offset="100%" stop-color="#673ab7" />
                                </linearGradient>
                             </defs>
-                            <circle class="sql-circle" cx="100" cy="100" r="90" stroke-linecap="round" /> <!-- to center: make cx = cy and tinker with r-->
+                            <circle class="sql-circle" cx="100" cy="100" r="90" stroke-linecap="butt" /> <!-- to center: make cx = cy and tinker with r-->
                     </svg>
                     </div>
 
@@ -279,52 +282,82 @@
                                   <stop offset="100%" stop-color="#673ab7" />
                                </linearGradient>
                             </defs>
-                            <circle class="java-circle" cx="100" cy="100" r="90" stroke-linecap="round" /> <!-- to center: make cx = cy and tinker with r-->
+                            <circle class="java-circle" cx="100" cy="100" r="90" stroke-linecap="butt" /> <!-- to center: make cx = cy and tinker with r-->
                     </svg>
                     </div>
                 </div>
 
-                <div class="skill-container2">
-                    <div class="mini-skill skill1">
-                        <img class="mini-logo" src="images/Mini-Data.png">
-                        <h2 class="mini-title">
-                            Data Manipulation
-                        </h2>
-                        <p1 class="mini-desc">
-                            Jam give Emaan kith kith
-                        </p1>
+                <div class="skill-container2" id="skills">
+                    <div class="skill-container2-1">
+                        <div class="mini-skill skill1">
+                            <img class="mini-logo" src="images/Mini-Data.png">
+                            <h2 class="mini-title">
+                                Data Manipulation
+                            </h2>
+                            <p1 class="mini-desc">
+                                Experience with data manipulation/analysis using libraries such as Pandas as well as using SQL to extract meaningful information from databases
+                            </p1>
+                        </div>
+    
+                        <div class="mini-skill skill2">
+                            <img class="mini-office mini-logo" src="images/Mini-Office.png">
+                            <h2 class="mini-title">
+                                MS Office
+                            </h2>
+                            <p1 class="mini-desc">
+                                Certified in Microsoft Office (2013 Viewport Certification). Proficiency in Word, Excel and Powerpoint.
+                            </p1>
+                        </div>
+    
+                        <div class="mini-skill skill3">
+                            <img class="mini-office mini-logo" src="images/Mini-Engineering.png">
+                            <h2 class="mini-title">
+                                Software Engineering
+                            </h2>
+                            <p1 class="mini-desc">
+                                Experience in front-end and back-end development. Libraries used include PySide, TKinter and SFML. Projects range from applications to webpages.
+                            </p1>
+                        </div>
+    
+                        <div class="mini-skill skill4">
+                            <img class="mini-office mini-logo" src="images/Mini-Teamwork.png">
+                            <h2 class="mini-title">
+                                Teamwork and Leadership
+                            </h2>
+                            <p1 class="mini-desc">
+                                Worked in multiple team settings, both in and outside of academia, including a team of research-interns where cooperation and independent work is done.
+                            </p1>
+                        </div>
                     </div>
-
-                    <div class="mini-skill skill2">
-                        <img class="mini-office mini-logo" src="images/Mini-Office.png">
-                        <h2 class="mini-title">
-                            MS Office
+    
+                    <div class="skill-container2-2">
+                        <h2 class="skills-soft-title">
+                            Soft Skills 
                         </h2>
-                        <p1 class="mini-desc">
-                            Jam give Emaan kith kith
-                        </p1>
-                    </div>
-
-                    <div class="mini-skill skill3">
-                        <img class="mini-office mini-logo" src="images/Mini-Engineering.png">
-                        <h2 class="mini-title">
-                            Software Engineering
-                        </h2>
-                        <p1 class="mini-desc">
-                            Jam give Emaan kith kith
-                        </p1>
-                    </div>
-
-                    <div class="mini-skill skill4">
-                        <img class="mini-office mini-logo" src="images/Mini-Teamwork.png">
-                        <h2 class="mini-title">
-                            Teamwork and Leadership
-                        </h2>
-                        <p1 class="mini-desc">
-                            Jam give Emaan kith kith
-                        </p1>
+                        <div class="skills-soft-grid">
+                            <div class="skills-soft">
+                                Persistence
+                            </div>
+                            <div class="skills-soft">
+                                Cooperation
+                            </div>
+                            <div class="skills-soft">
+                                Reliability
+                            </div>
+                            <div class="skills-soft">
+                                Diligence
+                            </div>
+                            <div class="skills-soft">
+                                Analytical Ability
+                            </div>
+                            <div class="skills-soft">
+                                Task-orientation
+                            </div>
+                        </div>
                     </div>
                 </div>
+
+                
 
                 
 
@@ -335,6 +368,7 @@
 
         <script src="scripts/balls.js"> </script>
         <script src="scripts/popup.js"> </script>
+        <script src="scripts/scroll.js"> </script>
         <!--<script src="scripts/cards.js"> </script>-->
         <!--<script src="scripts/glow.js"> </script>-->
     </body>
