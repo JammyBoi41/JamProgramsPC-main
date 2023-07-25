@@ -17,6 +17,7 @@
         <link rel="stylesheet" href="styles/projects.css">
         <link rel="stylesheet" href="styles/extracurriculars.css">
         <link rel="stylesheet" href="styles/skills.css">
+        <link rel="stylesheet" href="styles/contact.css">
         <!--<link rel="stylesheet" href="styles/glow.css">-->
 
     </head>
@@ -40,6 +41,9 @@
                     </button>
                     <button onclick="scrollToSection('skills')" class="extracurriculars-button">
                         SKILLS
+                    </button>
+                    <button onclick="scrollToSection('contact')" class="contact-button">
+                        CONTACT
                     </button>
                 </header>
             </section>  
@@ -348,7 +352,7 @@
                                 Diligence
                             </div>
                             <div class="skills-soft">
-                                Analytical Ability
+                                Analytical Thinking
                             </div>
                             <div class="skills-soft">
                                 Task-orientation
@@ -356,12 +360,26 @@
                         </div>
                     </div>
                 </div>
+            </section>
 
-                
+            <section class="contact" id="contact">
+                <div class="title">
+                    <h1>CONTACT</h1>
+                </div>
 
-                
-
-                
+                <div class="contact-container">
+                    <form onsubmit="sendEmail(); reset(); return false;">
+                        <p>Wish to get in touch? Send me an e-mail and I'll respond!</p>
+                        <input type="text" class="first-name contact-child" id="first-name" placeholder="First Name">
+                        <input type="text" class="last-name contact-child" id="first-name" placeholder="Last Name">
+                        <input type="text" class="email contact-child" id="email" placeholder="E-Mail Address">                       
+                        <input type="text" class="phone contact-child" id="phone" placeholder="Phone Number">
+                        <textarea class="message contact-child" id="message" rows="4" placeholder="Message"></textarea>
+                        <div class="contact-send">
+                            <button type="submit">Send</button>
+                        </div>
+                    </form>
+                </div>
             </section>
 
         </main>
@@ -369,6 +387,8 @@
         <script src="scripts/balls.js"> </script>
         <script src="scripts/popup.js"> </script>
         <script src="scripts/scroll.js"> </script>
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+        <script src="scripts/email.js"></script>
         <!--<script src="scripts/cards.js"> </script>-->
         <!--<script src="scripts/glow.js"> </script>-->
     </body>

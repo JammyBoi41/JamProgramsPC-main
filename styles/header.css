@@ -1,5 +1,6 @@
 .header {
-    background-color: rgba(0,0,0,1);
+    background-color: rgba(0,0,0,0.1);
+    backdrop-filter: blur(8px);
     position: fixed;
     display: flex;
     align-items: center;
@@ -12,7 +13,7 @@
 .header button {
     margin-left: 1vw;
     margin-right: 1vw;
-    background-color: black;
+    background-color: transparent;
     color: white;
     border: none;
     font-weight: bold;
