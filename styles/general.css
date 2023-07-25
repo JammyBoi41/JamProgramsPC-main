@@ -7,8 +7,6 @@ body {
     background-repeat: no-repeat;
     z-index: 1;
 }
-
-
 main {
     display: flex;
     flex-direction: column;
@@ -47,7 +45,6 @@ img {
     font-weight: 300;
     margin-left: 1vw;
 }
-
 
 ::-webkit-scrollbar { /* controls the entire scrollbar */
     width: 1em;

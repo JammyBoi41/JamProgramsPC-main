@@ -80,7 +80,6 @@ circle { /* the colored part of circular prog bar*/
     animation: sql 2s ease forwards;
 }
 
-
 svg {
     transform: rotate(-90deg);
     position: absolute;

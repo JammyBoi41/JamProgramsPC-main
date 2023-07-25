@@ -24,14 +24,9 @@
     bottom: -10;
 }
 
-
-
-
 span {
     color: #22ffff;
 }
-
-
 
 .project-container {
     display: flex;
@@ -175,7 +170,6 @@ span {
 .popup-display.closePopup {
     animation: slideOut 0.4s forwards;
 }
-
 
 @keyframes slideIn {
     from {

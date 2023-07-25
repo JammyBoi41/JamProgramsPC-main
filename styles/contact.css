@@ -10,8 +10,6 @@
     background-attachment: fixed;
 }
 
-
-
 .contact .title h1::after {
     position: absolute;
     content:"CONTACT";
@@ -21,7 +19,6 @@
     font-weight: bold;
     bottom: -10;
 }
-
 
 .contact-container {
     width: 40vw;

@@ -17,9 +17,6 @@ extra_info.innerText = 'Having dedicated 2 years of my undergraduate experience 
 const background = document.querySelector('.extracurricular-overlay');
 background.classList.add('kusa_background');
 
-
-
-
 function swapText(ballNumber) {
                 
     let ball = document.querySelector(`.${ballNumber}`); //currente .ball_ object being clicked on
@@ -151,16 +148,10 @@ function swapText(ballNumber) {
         }
     }
 }
-
 /*function moveBalls() {
     const ball_container = document.querySelector('.ball-container');
     ball_container.classList.add('moveBalls');
 }*/
-
-
-
-//SECONDARY FUNCTIONS
-
 function toggleOff() { //for toggling off other balls whenever you click on a new ball
     const previousButton = document.querySelector('.ballClicked');
     if(previousButton) {
