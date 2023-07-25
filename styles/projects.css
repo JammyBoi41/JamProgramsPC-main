@@ -170,6 +170,12 @@ span {
 .popup-display.closePopup {
     animation: slideOut 0.4s forwards;
 }
+.popup-attribute {
+    color: rgba(255, 255, 255, 0.1);
+    font-size: 0.7rem;
+    font-family: Montserrat;
+    font-weight: 300;
+}
 
 @keyframes slideIn {
     from {
