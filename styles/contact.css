@@ -8,6 +8,7 @@
     background-position: center;
     height: 100vh;
     background-attachment: fixed;
+    background-repeat: no-repeat;
     color: rgba(255, 255, 255, 0.4);
 }
 .contact span {
@@ -110,3 +111,10 @@
     font-size: 0.9vw;
 }
 
+
+@media screen and (max-width: 767px) {
+    .contact {
+        background-attachment: local;
+        background-size: 330%;
+    }
+}

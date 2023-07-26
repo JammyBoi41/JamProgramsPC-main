@@ -34,11 +34,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 200px;
-    width: 200px;
+    height: 15.6vw;
+    width: 15.6vw;
     border-radius: 50%;
-    box-shadow: 6px 6px 4px -1px rgba(0,0,0,0.15),
-                0px 0px 4px -1px rgba(255, 255, 255, 0.7)
+
 }
 
 .inner {
@@ -46,23 +45,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 160px;
-    width: 160px;
+    height: 12.47vw;
+    width: 12.47vw;
     border-radius: 50%;
-    box-shadow: inset 4px 4px 0px 0px rgba(0,0,0,0.2),
-                 inset 4px 4px 0px 0px rgba(0,0,0,0.2),
-                 -0.5px -0.5px 0px rgba(255, 255, 255, 1),
-                 0.5px 0.5px 0px rgba(0,0,0,0.15),
-                 0px 12px 10px 0px rgba(0,0,0,0.05);
+
 }
 
 circle { /* the colored part of circular prog bar*/
     fill: none;
     stroke: url(#GradientColor);
-    stroke-width: 20.5px; /* circle thickness */
+    stroke-width: 1.6vw; /* circle thickness */
     stroke-dasharray: 560; /* amount of completeness - MAX = 560* OPPOSITE = stroke-dashoffset */
     stroke-dashoffset: 560;
-    box-shadow: 0px 0px 40px 10px rgba(255, 255, 255, 0.6);
 }
 .java-circle {
     animation: java 2s ease forwards;
