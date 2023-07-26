@@ -28,7 +28,7 @@
     display: flex;
     flex: 1;
     justify-content: center;
-    width: 81rem;
+    width: 85vw;
 }
 .picture {
     display: flex;
@@ -112,7 +112,7 @@
     margin-top: 10px;
     padding-left: 50px;
     padding-right: 50px;
-    line-height: 2.4rem;
+    line-height: 2.6rem;
     margin-left: 50px;
     text-align: justify;
 }
@@ -120,6 +120,6 @@
 .about h2 {
     font-family: Montserrat;
     font-weight: 400;
-    font-size: 1.25rem;
+    font-size: 1.6rem;
 }
 
