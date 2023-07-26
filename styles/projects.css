@@ -57,15 +57,15 @@ span {
 }
 
 .title-container {
-    margin-top: 3vw;
+    margin-top: 3rem;
     display: flex;
     color: white;
     font-size: 3rem;
     width: 90rem;
     justify-content: space-around;
     text-decoration: underline;
-    text-underline-offset: 1vw;
-    text-decoration-thickness: 0.1vw;
+    text-underline-offset: 1rem;
+    text-decoration-thickness: 0.1rem;
     text-decoration-color: #22ffff;
 }
 .Fitness2-title,.Airplanes-title,.Wildfire-title {
@@ -79,7 +79,7 @@ span {
     height: 100%;
     left: 0;
     right: 0;
-    bottom: -4vw;
+    bottom: -4rem;
 }
 .Airplanes-title::after {
     text-align: center;
@@ -89,7 +89,7 @@ span {
     height: 100%;
     left: 0;
     right: 0;
-    bottom: -4vw;
+    bottom: -4rem;
 }
 .Wildfire-title::after {
     text-align: center;
@@ -99,7 +99,7 @@ span {
     height: 100%;
     left: 0;
     right: 0;
-    bottom: -4vw;
+    bottom: -4rem;
 }
 
 .popup { /* dark background when a popup comes up */
