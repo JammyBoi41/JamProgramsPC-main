@@ -6,12 +6,12 @@
     background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('contact.jpg');
     background-size: 100%;
     background-position: center;
-    height: 100vh;
+    height: 70rem;
     background-attachment: fixed;
     color: rgba(255, 255, 255, 0.4);
 }
 .contact span {
-    font-size: 1.4vw;
+    font-size: 1.4rem;
     color: rgba(255, 255, 255, 0.3);
 }
 .contact p{
@@ -23,22 +23,22 @@
     position: absolute;
     content:"CONTACT";
     color: rgba(255, 255, 255, 0.065);
-    font-size: 6vw;
+    font-size: 7rem;
     font-family: Agdasima;
     font-weight: bold;
     bottom: -10;
 }
 
 .contact-container {
-    width: 40vw;
-    height: 60vh;
+    width: 45rem;
+    height: 40rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background: rgba(0, 0, 0, 0.4);
     color: white;
-    font-size: 1.5vw;
+    font-size: 1.5rem;
     text-align: center;
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -51,9 +51,9 @@
     text-align: center;
     border: none;
     transition: 0.5s;
-    height: 3vw;
-    margin-bottom: 1vw;
-    margin-top: 1vw;
+    height: 4rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
 }
 .contact-child:focus {
     outline: none;
@@ -65,26 +65,26 @@
 
 .first-name {
     display: block;
-    width: 30vw;
+    width: 36rem;
 }
 .last-name {
     display: block;
-    width: 30vw;
+    width: 36rem;
 }
 .email {
     margin: 0;
     display: inline-block;
-    width: 15vw;
+    width: 18rem;
 }
 .phone {
     margin: 0;
     display: inline-block;
-    width: 14.5vw;
+    width: 17.5rem;
 }
 .message {
     display: block;
-    width: 30vw;
-    height: 20vh;
+    width: 36rem;
+    height: 15rem;
 }
 .contact-send {
     display: flex;
@@ -97,8 +97,8 @@
     border: none;
     border-radius: 2px;
     color: rgba(255, 255, 255, 0.3);
-    width: 10vw;
-    height: 5vh;
+    width: 12rem;
+    height: 3rem;
     cursor: pointer;
     transition: 0.4s all;
 }
@@ -107,17 +107,4 @@
     background: rgba(255, 255, 255, 0.05);
 }
 
-.contact-wrap {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 15rem;
-    width: 100%;
-    height: 30vh;
-    background: black;
-    color: rgba(255, 255, 255, 0.3);
-    font-family: Montserrat;
-    font-size: 1rem;
-}
 

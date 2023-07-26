@@ -9,7 +9,7 @@
     background-position: center;
     padding-bottom: 5rem;
     background-attachment: fixed;
-    background-position-x: 0.1vw;
+    background-position-x: 0.1rem;
     padding-top: 0;
     padding-bottom: 0;
 }
@@ -31,7 +31,7 @@
     padding-top: 0;
 }
 .extracurriculars .title h1 {
-    margin-bottom: 1vw;
+    margin-bottom: 1rem;
     margin-top: 0;
 }
 
@@ -85,12 +85,12 @@ span {
     flex-direction: row;
     align-items: center;
     height: 400px; /*made a little bigger than the height of the biggest paragraph so items don't shift around*/
-    width: 85vw;
+    width: 110rem;
 }
 
 .ball-container{
     display: flex;
-    margin-right: 1.5vw;
+    margin-right: 1.5rem;
 }
 
 .ball1,.ball2,.ball3 {
@@ -169,8 +169,8 @@ span {
     animation-fill-mode: forwards;
     font-family: Montserrat;
     font-weight: 400;
-    font-size: 1.5vw;
-    line-height: 2.2vw;
+    font-size: 1.5rem;
+    line-height: 2.8rem;
     color: rgba(166, 166, 166, 1);
 }
 .ballClicked {
@@ -186,8 +186,8 @@ span {
     animation-fill-mode: forwards;
     font-family: Montserrat;
     font-weight: 400;
-    font-size: 1.5vw;
-    line-height: 2.2vw;
+    font-size: 1.5rem;
+    line-height: 2.8rem;
     color: rgba(166, 166, 166, 1);
 }
 
@@ -195,7 +195,7 @@ span {
     position: absolute;
     content:"EXTRACURRICULARS";
     color: rgba(255, 255, 255, 0.02);
-    font-size: 5.5vw;
+    font-size: 5.5rem;
     font-family: Agdasima;
     font-weight: bold;
     bottom: -10;
@@ -209,22 +209,22 @@ span {
 .extra-title {
     font-family: Montserrat;
     font-weight: 400;
-    font-size: 1.8vw;
+    font-size: 1.8rem;
     color: rgba(166, 166, 166, 1);
 }
 .extra-time {
     font-family: Montserrat;
     font-weight: 300;
-    font-size: 1.6vw;
+    font-size: 1.6rem;
     color: rgba(166, 166, 166, 1);
 }
 .extra-info {
     text-align: justify;
     padding-right: 40px;
-    margin-top: 0.9vw;
+    margin-top: 0.9rem;
     font-family: Montserrat;
     font-weight: 400;
-    font-size: 1.2vw;
+    font-size: 1.5rem;
     color: rgba(166, 166, 166, 1);
 }
 
