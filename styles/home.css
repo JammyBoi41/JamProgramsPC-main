@@ -72,18 +72,17 @@
 }
 
 @media screen and (max-width: 767px) {
-    body {
-        min-width: 1vw;
-    }
     .home {
+        min-height: 50vh;
         background-attachment: local;
         background-size: 200%;
+        align-items: center;
+        justify-content: center;
     }
     .home h1{
-        margin-top: 80vw;
-        font-size: 5rem;
+        font-size: 4rem;
     }
     .home h2{
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
 }
