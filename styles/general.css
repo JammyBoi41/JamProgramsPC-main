@@ -6,6 +6,7 @@ body {
     background-size: 100%;
     background-repeat: no-repeat;
     z-index: 1;
+    width: 100%;
 }
 main {
     display: flex;
