@@ -124,7 +124,7 @@ span {
     flex-direction: column;
     background: rgb(27, 27, 27);
     border-radius: 20px;
-    width: 35rem;
+    width: 35vw;
     border-top-left-radius: 40px;
     border-top-right-radius: 40px;
     padding-bottom: 1rem;
@@ -139,7 +139,7 @@ span {
 .popup-display h2 {
     font-family: Montserrat;
     font-weight: 300;
-    font-size: 1rem;
+    font-size: 1vw;
     padding-left: 1rem;
     text-decoration: underline;
     text-underline-offset: 0.2rem;
@@ -150,13 +150,13 @@ span {
 .popup-desc {
     font-family: Montserrat;
     font-weight: 300;
-    font-size: 0.8rem;
+    font-size: 1vw;
     padding-left: 1.5rem;
     padding-right: 1rem;
-    line-height: 1.3rem;
+    line-height: 1.7vw;
 }
 .popup-thumbnail {
-    width: 35rem;
+    width: 35vw;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
@@ -172,7 +172,7 @@ span {
 }
 .popup-attribute {
     color: rgba(255, 255, 255, 0.1);
-    font-size: 0.7rem;
+    font-size: 1vw;
     font-family: Montserrat;
     font-weight: 300;
 }
@@ -197,3 +197,4 @@ span {
         transform: translateY(-40rem);
     }
 }
+

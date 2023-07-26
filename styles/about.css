@@ -1,10 +1,9 @@
 .about {
-    padding-top: 1vw;
-    padding-bottom: 5vw;
     background: #13131a;
     display: flex;
     flex-direction: column;
     height: 82vh;
+    justify-content: center;
     align-items: center;
     z-index: 1;
 }
@@ -122,3 +121,4 @@
     font-weight: 400;
     font-size: 1.25vw;
 }
+
