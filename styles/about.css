@@ -1,10 +1,10 @@
 .about {
-    padding-top: 1vw;
-    padding-bottom: 5vw;
+    padding-top: 0;
+    padding-bottom: 7rem;
     background: #13131a;
     display: flex;
     flex-direction: column;
-    height: 82vh;
+    height: 43rem;
     align-items: center;
     z-index: 1;
 }
@@ -13,10 +13,10 @@
     position: absolute;
     content:"ABOUT";
     color: rgba(255, 255, 255, 0.03);
-    font-size: 5.5vw;
+    font-size: 7rem;
     font-family: Agdasima;
     font-weight: bold;
-    bottom: -10;
+    bottom: 0;
 }
 
 .about .title h1 {
@@ -28,7 +28,7 @@
     display: flex;
     flex: 1;
     justify-content: center;
-    width: 85vw;
+    width: 81rem;
 }
 .picture {
     display: flex;
@@ -37,11 +37,11 @@
 .link-container {
     display: flex;
     flex-direction: column;
-    margin-top: 1.6vw;
+    margin-top: 1.6rem;
 }
 .link,.link2 {
     display: flex;
-    font-size: 2.5vw;
+    font-size: 2.5rem;
     color: rgb(166, 166, 166);
     font-family: Agdasima;
     padding-left: 50px;
@@ -112,7 +112,7 @@
     margin-top: 10px;
     padding-left: 50px;
     padding-right: 50px;
-    line-height: 2.6vw;
+    line-height: 2.4rem;
     margin-left: 50px;
     text-align: justify;
 }
@@ -120,6 +120,6 @@
 .about h2 {
     font-family: Montserrat;
     font-weight: 400;
-    font-size: 1.25vw;
+    font-size: 1.25rem;
 }
 
