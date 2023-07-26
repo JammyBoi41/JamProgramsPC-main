@@ -2,7 +2,6 @@
     background: #13131a;
     display: flex;
     flex-direction: column;
-    height: 82vh;
     justify-content: center;
     align-items: center;
     z-index: 1;
@@ -23,7 +22,6 @@
 }
 
 .about-div {
-    margin-top: 0px;
     display: flex;
     flex: 1;
     justify-content: center;
@@ -37,21 +35,22 @@
     display: flex;
     flex-direction: column;
     margin-top: 1.6vw;
+    margin-bottom: 1vw;
 }
 .link,.link2 {
     display: flex;
     font-size: 2.5vw;
     color: rgb(166, 166, 166);
     font-family: Agdasima;
-    padding-left: 50px;
+    padding-left: 2vw;
 }
 .link2 {
-    margin-top: 8px;
+    margin-top: 0.4vw;
 }
 .icon {
-    width: 40px;
-    height: 40px;
-    margin-right: 10px;
+    width: 2vw;
+    height: 2vw;
+    margin-right: 1vw;
 }
 
 
@@ -83,12 +82,11 @@
 
 .portrait-div {
     display: flex;
-    width: 250px;
-    margin-left: 40px;
+    margin-left: 2vw;
 }
 
 .portrait {
-    margin-top: 30px;
+    margin-top: 1.5vw;
     contain: content;
     width: 12vw;
     height: 12vw;
@@ -108,11 +106,10 @@
 .h2-container {
     color: rgb(166, 166, 166);
     font-size: 2rem;
-    margin-top: 10px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 1vw;
+    padding-right: 1vw;
     line-height: 2.6vw;
-    margin-left: 50px;
+    margin-left: 2vw;
     text-align: justify;
 }
 

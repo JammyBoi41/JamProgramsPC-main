@@ -84,7 +84,6 @@ span {
     display: flex;
     flex-direction: row;
     align-items: center;
-    height: 400px; /*made a little bigger than the height of the biggest paragraph so items don't shift around*/
     width: 85vw;
 }
 

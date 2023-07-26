@@ -1,7 +1,7 @@
 .home {
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0, 0, 0, 1)), url(background.jpg);
     background-position: center;
-    background-size: 100%;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -10,6 +10,7 @@
     margin-bottom: 0px;
     background-attachment: fixed;
     background-repeat: no-repeat;
+    width: 100%;
 }
 
 @keyframes fadeAnimation {
@@ -33,7 +34,7 @@
     animation-fill-mode: forwards;
     color: white;
     font-weight: 800;
-    margin-top: 200px;
+    margin-top: 12.5vw;
     font-size: 7vw;
     margin-bottom: 0.5vw;
     letter-spacing: 0.5vw;
@@ -68,4 +69,21 @@
 
 .home span {
     color: #00ffff;
+}
+
+@media screen and (max-width: 767px) {
+    body {
+        min-width: 1vw;
+    }
+    .home {
+        background-attachment: local;
+        background-size: 200%;
+    }
+    .home h1{
+        margin-top: 80vw;
+        font-size: 5rem;
+    }
+    .home h2{
+        font-size: 0.8rem;
+    }
 }

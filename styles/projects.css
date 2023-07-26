@@ -111,8 +111,6 @@ span {
     z-index: 3; /* above everything else in the section */
     background: rgba(0, 0, 0, 0.8);
     position: fixed;
-    width: 100px;
-    height: 100px;
     text-align: center;
     top: 50%;
     left: 50%;
