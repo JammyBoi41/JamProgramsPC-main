@@ -235,6 +235,41 @@ span {
     .extracurriculars,.extracurricular-overlay {
         background-attachment: local;
     }
+    .extracurricular-container {
+        width: 85vw;
+        margin: 0;
+        padding: 0;
+        transform: translate(-5%, 0);
+    }
+    .extracurriculars {
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
+    .ball1,.ball2,.ball3 {
+        width: 12vw;
+        height: 12vw;
+    }
+    .extracurricular-overlay {
+        background-size: 250%;
+    }
+    .extra-title {
+        font-size: 2.6vw;
+        line-height: 3vw;
+    }
+    .extra-time {
+        margin-top: 0.5vw;
+        margin-bottom: 2vw;
+        font-size: 2.8vw;
+    }
+    .extra-info {
+        font-size: 2.3vw;
+        line-height: 3.4vw;
+        text-align: justify;
+        width: 100%;
+        font-weight: 300;
+    }
+    
 }
 
 /* make overlay a background: gradient, apply opacity 1 -> hover: opacity: 0*/
