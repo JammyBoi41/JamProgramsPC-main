@@ -43,13 +43,15 @@
 .home h2 {
     animation-delay: 0.2s;
     font-size: 1.8vw;     
-    width: 50vw;
     text-align: center;
     line-height: 2.5vw;
     color: rgb(166, 166, 166);
 }
 
 .about-me {
+    width: 100%;
+
+    flex-direction: column;
     animation-delay: 0.2s;
     opacity: 0; /* set it invisible initially*/
     animation: fadeAnimation;
@@ -67,22 +69,53 @@
     animation-duration: 1s;
 }
 
-.home span {
+.home .divider {
     color: #00ffff;
+    margin-left: 1vw;
+    margin-right: 1vw;
 }
 
 @media screen and (max-width: 767px) {
-    .home {
-        min-height: 50vh;
+    .home { /* take away the min-height */
+        display: flex;
         background-attachment: local;
-        background-size: 200%;
+        background-size: 300%;
         align-items: center;
         justify-content: center;
     }
     .home h1{
-        font-size: 4rem;
+        font-size: 18vw;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+        font-weight: 300;
     }
     .home h2{
-        font-size: 0.7rem;
+        font-size: 7vw;
+        line-height: 7vw;
+        align-items: center;
+        justify-content: center;
+    }
+    .home .role {
+        display: block;
+        margin: 3vw;
+        padding: 0;
+        font-weight: 300;
+        text-decoration: underline;
+        text-underline-offset: 1vw;
+        text-decoration-thickness: 0.1px;
+    }
+    .home .divider { /* no dividers - funky flow */
+        display: none;
+    }
+    .about-sub {
+        display: flex;
+        width: 85vw;
+        justify-content: center;
+        align-items: center;
+    }
+    .lets-go{
+        font-weight: 300;
     }
 }

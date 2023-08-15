@@ -78,8 +78,6 @@
     }
 }
 
-
-
 .portrait-div {
     display: flex;
     margin-left: 2vw;
@@ -95,8 +93,6 @@
 }
 
 
-
-
 .about-info {
     display: flex;
     flex-direction: column;
@@ -105,7 +101,6 @@
 
 .h2-container {
     color: rgb(166, 166, 166);
-    font-size: 2rem;
     padding-left: 1vw;
     padding-right: 1vw;
     line-height: 2.6vw;
@@ -119,3 +114,32 @@
     font-size: 1.25vw;
 }
 
+@media screen and (max-width: 767px) {
+    .about-div {
+        flex-direction: column;
+        text-align: none;
+    }
+    .picture {
+        flex-direction: row;
+        margin-bottom: 5vw;
+    }
+    .portrait {
+        width: 30vw;
+        height: 30vw;
+        margin-right: 2vw;  
+        border: none;
+    }
+    .about h2 {
+        font-size: 3vw;
+        line-height: 5vw;
+    }
+    .link,.link2 {
+        margin-top: 1vw;
+        font-size: 6vw;
+        margin-bottom: 1vw;
+    }
+    .icon {
+        width: 8vw;
+        height: 8vw;
+    }
+}

@@ -196,3 +196,20 @@ span {
     }
 }
 
+@media screen and (max-width: 767px) {
+    .title-container{ /* for now remove the titles */
+        display: none;
+    }
+    .project-container {
+        flex-direction: column;
+    }
+    .laptop {
+        width: 75vw;
+        margin-top: 5vw;
+        margin-bottom: 5vw;
+    }
+    .popup-display {
+        width: 100vw;
+        height: 100vw;
+    }
+}
