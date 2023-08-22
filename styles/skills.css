@@ -253,3 +253,77 @@ svg {
 .skills-soft:hover {
     box-shadow:0px 0px 10px 10px rgba(34, 255, 255, 0.04);
 }
+
+
+@media screen and (max-width: 767px) {
+    .skills {
+        padding-top: 8vw;
+    }
+    .cplusplus,.css-html,.python,.java,.sql {
+        scale: 1.1;
+        margin-right: 2.5vw;
+    }
+    .language {
+        font-size: 2.3vw;
+    }
+    .skill-desc1 {
+        font-size: 2.2vw;
+        color: white;
+    }
+    .skills .title h1 {
+        margin: 0;
+        padding: 0;
+        margin-bottom: 2.5vw;
+    }
+    .skill-container2 {
+        position: relative;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+    }
+    .skill-container2-1 {
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 55vw;
+    }
+    .mini-skill {
+        width: 30vw;
+        height: 30vw;
+        padding: 1vw;
+    }
+    .mini-logo {
+        width: 7vw;
+        height: 7vw;
+    }
+    .mini-title {
+        font-size: 2.5vw;
+        margin-top: 6.9vw;
+    }
+    .mini-desc {
+        font-size: 2vw;
+    }
+    .skill-container2-2 {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        width: 65vw;
+        left: 5vw;
+        bottom: 0;
+        padding: 0;
+    }
+    .skills-soft-grid {
+        grid-column-gap: 20vw;
+    }
+    .skills-soft {
+        text-align: center;
+        width: 20vw;
+        height: 20vw;
+        font-size: 2.5vw;
+        border: 0.01px solid #22ffff;
+    }
+    .skills-soft-title {
+        text-align: center;
+        font-size: 6vw;
+    }
+}

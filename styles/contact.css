@@ -1,5 +1,5 @@
 .contact {
-    padding-bottom: 20;
+    padding-bottom: 5vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -107,7 +107,7 @@
     color: white;
     background: rgba(255, 255, 255, 0.05);
 }
-.contact p1{
+.wrap {
     font-size: 0.9vw;
 }
 
@@ -116,5 +116,39 @@
     .contact {
         background-attachment: local;
         background-size: 330%;
+    }
+    .contact-container {
+        display: flex;
+        height: 95vw;
+        width: 80vw;
+        padding: 0;
+    }
+    .contact-container form p {
+        font-size: 4vw;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .contact-child {
+        width: 90%;
+        height: 20%;
+    }
+    .first-name {
+        margin: 0;
+    }
+    .email {
+        margin-bottom: 1vw;
+    }
+    .message {
+        height: 50vw;
+    }
+    .contact-send button {
+        width: 20vw;
+    }
+    .wrap {
+        font-size: 1.9vw;
     }
 }
