@@ -114,7 +114,6 @@
 
 @media screen and (max-width: 767px) {
     .contact {
-        background-attachment: local;
         background-size: 330%;
     }
     .contact-container {

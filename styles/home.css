@@ -78,7 +78,6 @@
 @media screen and (max-width: 767px) {
     .home { /* take away the min-height */
         display: flex;
-        background-attachment: local;
         background-size: 300%;
         align-items: center;
         justify-content: center;
